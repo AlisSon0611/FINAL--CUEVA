@@ -846,7 +846,7 @@ position = Vector2(108, 142)
 animation = "gold_coin"
 
 [node name="PickableObject18" parent="." instance=ExtResource("12_8jyi2")]
-position = Vector2(110, 598)
+position = Vector2(101, 602)
 animation = "gold_coin"
 
 [node name="PickableObject19" parent="." instance=ExtResource("12_8jyi2")]
