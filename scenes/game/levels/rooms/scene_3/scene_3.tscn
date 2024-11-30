@@ -670,7 +670,7 @@ layer_3/tile_data = PackedInt32Array()
 metadata/_edit_group_ = true
 
 [node name="MainCharacter" parent="." instance=ExtResource("2_e4qjl")]
-position = Vector2(176, 414)
+position = Vector2(97, 465)
 
 [node name="Camera2D" parent="." node_paths=PackedStringArray("character") instance=ExtResource("3_nj4wd")]
 character = NodePath("../MainCharacter")
