@@ -18,7 +18,7 @@ extends CharacterBody2D
 ) var moving_direction: String
 
 # Variable para control de animación y colisiones
-@onready var _animation := $EnemyAnimation
+@onready var _animation := $EnemyAnimation2
 @onready var _animation_effect := $EnemyEffect
 @onready var _raycast_terrain := $Area2D/RayCastTerrain
 @onready var _raycast_wall := $Area2D/RayCastWall
