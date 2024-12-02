@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://g8livmho01vu" path="res://scenes/game/enemy/Worm/enemigo_x.tscn" id="2_p5mkm"]
 [ext_resource type="PackedScene" uid="uid://8rbt5lmdrp0s" path="res://scenes/game/camera/camera.tscn" id="3_nj4wd"]
 [ext_resource type="PackedScene" uid="uid://bnp6y3fe4kqob" path="res://scenes/game/levels/objects/damage_object/cannon/cannon.tscn" id="4_3b6t6"]
-[ext_resource type="PackedScene" uid="uid://dw704tfya6e31" path="res://scenes/game/enemy/enemigo_y.tscn" id="4_jbp1n"]
+[ext_resource type="PackedScene" path="res://scenes/game/enemy/enemigo_y.tscn" id="4_jbp1n"]
 [ext_resource type="PackedScene" uid="uid://c2e1lhm1w4re4" path="res://scenes/game/levels/objects/damage_object/spikes/spikes.tscn" id="5_kj8ec"]
 [ext_resource type="Texture2D" uid="uid://do7q2lewjb022" path="res://fondo fijo/Castllo/Enjl-Dark Halls Tileset/background_1.png" id="8_fm0x1"]
 [ext_resource type="Texture2D" uid="uid://cekthye0l21go" path="res://fondo fijo/Castllo/Enjl-Dark Halls Tileset/background_5.png" id="9_0seq8"]
@@ -9544,7 +9544,6 @@ texture = ExtResource("26_pfiv5")
 6:15/0 = 0
 8:15/0 = 0
 9:15/0 = 0
-33:15/0 = 0
 34:15/0 = 0
 36:15/0 = 0
 38:15/0 = 0
@@ -10190,8 +10189,9 @@ texture = ExtResource("26_pfiv5")
 29:62/0 = 0
 1:63/0 = 0
 29:63/0 = 0
-35:25/0 = 0
 26:32/0 = 0
+35:25/0 = 0
+33:15/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2aqny"]
 texture = ExtResource("27_wggwa")
@@ -12513,7 +12513,6 @@ layer_3/tile_data = PackedInt32Array()
 metadata/_edit_group_ = true
 
 [node name="Enemigo x" parent="." instance=ExtResource("2_p5mkm")]
-visible = false
 animation = "run"
 moving_direction = "active"
 
@@ -12755,5 +12754,6 @@ metadata/_edit_group_ = true
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_3vfyl")
+collision_animatable = true
 format = 2
 layer_0/tile_data = PackedInt32Array(917545, 1114118, 23, 983081, 1114118, 24, 917546, 1376262, 23, 983082, 1376262, 24, 917547, 1441798, 23, 983083, 1441798, 24, 917556, 1376262, 23, 983092, 1376262, 24, 917557, 1441798, 23, 983093, 1441798, 24, 917550, 1572870, 23, 983086, 1572870, 24, 917551, 1638406, 23, 983087, 1638406, 24, 917562, 1572870, 23, 983098, 1572870, 24, 917563, 1638406, 23, 983099, 1638406, 24, 917568, 1572870, 23, 983104, 1572870, 24, 917569, 1638406, 23, 983105, 1638406, 24, 917552, 1769478, 23, 983088, 1769478, 24, 917553, 1835014, 23, 983089, 1835014, 24, 917558, 1769478, 23, 983094, 1769478, 24, 917559, 1835014, 23, 983095, 1835014, 24, 917566, 1769478, 23, 983102, 1769478, 24, 917567, 1835014, 23, 983103, 1835014, 24, 917548, 1245190, 23, 983084, 1245190, 24, 917555, 1245190, 23, 983091, 1245190, 24, 917560, 1245190, 23, 983096, 1245190, 24, 917564, 1245190, 23, 983100, 1245190, 24, 917549, 1114118, 23, 983085, 1114118, 24, 917554, 1114118, 23, 983090, 1114118, 24, 917561, 1114118, 23, 983097, 1114118, 24, 917565, 1114118, 23, 983101, 1114118, 24)
