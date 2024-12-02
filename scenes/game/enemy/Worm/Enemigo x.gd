@@ -7,5 +7,9 @@ func _ready():
 
 func _physics_process(delta):
 	if is_on_wall():
-		pass
+		if $animate.flip_h:
+			velocity.x = velocidad
+		else:
+			velocity.x = -velocidad
+			
 	move_and_slide()
