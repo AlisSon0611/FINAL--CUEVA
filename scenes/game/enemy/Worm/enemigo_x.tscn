@@ -242,7 +242,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_kh0my")
 }],
 "loop": true,
-"name": &"atack",
+"name": &"attack",
 "speed": 15.0
 }, {
 "frames": [{
@@ -271,7 +271,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_8joy6")
 }],
 "loop": true,
-"name": &"death",
+"name": &"die",
 "speed": 8.0
 }, {
 "frames": [{
@@ -285,7 +285,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_afdyc")
 }],
 "loop": true,
-"name": &"get hit",
+"name": &"hit",
 "speed": 6.0
 }, {
 "frames": [{
@@ -392,8 +392,7 @@ script = ExtResource("1_u6um2")
 position = Vector2(3, 2)
 scale = Vector2(0.911111, 0.922222)
 sprite_frames = SubResource("SpriteFrames_bsv5w")
-animation = &"run"
-frame_progress = 0.667883
+animation = &"hit"
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
