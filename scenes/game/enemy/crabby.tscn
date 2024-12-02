@@ -487,7 +487,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ku5hj"]
-size = Vector2(40, 23)
+size = Vector2(23, 15)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_6nhye"]
 animations = [{
@@ -515,7 +515,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_62ixa"]
-size = Vector2(42, 25)
+size = Vector2(23, 15)
 
 [node name="Crabby" type="CharacterBody2D"]
 script = SubResource("GDScript_6chrj")
@@ -524,10 +524,10 @@ script = SubResource("GDScript_6chrj")
 position = Vector2(0, -2)
 scale = Vector2(-1.0107, 0.980732)
 sprite_frames = SubResource("SpriteFrames_fq7gh")
-animation = &"dead_ground"
+animation = &"attack"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(2, 1.5)
+position = Vector2(-0.5, 5.5)
 shape = SubResource("RectangleShape2D_ku5hj")
 
 [node name="EnemyEffect" type="AnimatedSprite2D" parent="."]
@@ -539,7 +539,7 @@ frame_progress = 1.0
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-position = Vector2(2, 1.5)
+position = Vector2(-0.5, 5.5)
 shape = SubResource("RectangleShape2D_62ixa")
 one_way_collision_margin = 0.0
 

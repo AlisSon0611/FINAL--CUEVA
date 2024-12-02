@@ -222,7 +222,7 @@ animation = "gold_coin"
 position = Vector2(613, 463)
 scale = Vector2(1.18458, 1.26755)
 animation = "run"
-moving_direction = "right"
+moving_direction = "active"
 
 [node name="Cannon" parent="." instance=ExtResource("19_msljc")]
 position = Vector2(782, 339)
@@ -257,5 +257,4 @@ animation = &"green_bottle"
 position = Vector2(294, 492)
 scale = Vector2(1.36338, 1.46673)
 animation = "run"
-moving_direction = "right"
-metadata/_edit_group_ = true
+moving_direction = "active"
