@@ -868,32 +868,27 @@ position = Vector2(318, 457)
 scale = Vector2(1.47149, 1.59841)
 animation = "run"
 moving_direction = "active"
-metadata/_edit_group_ = true
 
 [node name="Crabby3" parent="." instance=ExtResource("13_6b558")]
 position = Vector2(932, 123)
 scale = Vector2(1.40506, 1.47781)
 animation = "run"
 moving_direction = "active"
-metadata/_edit_group_ = true
 
 [node name="Crabby4" parent="." instance=ExtResource("13_6b558")]
 position = Vector2(986, 201)
 scale = Vector2(1.49738, 1.66605)
 animation = "run"
 moving_direction = "active"
-metadata/_edit_group_ = true
 
 [node name="Crabby5" parent="." instance=ExtResource("13_6b558")]
 position = Vector2(735, 199)
 scale = Vector2(1.56894, 1.84242)
 animation = "run"
 moving_direction = "active"
-metadata/_edit_group_ = true
 
 [node name="Crabby6" parent="." instance=ExtResource("13_6b558")]
 position = Vector2(256, 601)
 scale = Vector2(1.43284, 1.59381)
 animation = "run"
 moving_direction = "active"
-metadata/_edit_group_ = true
