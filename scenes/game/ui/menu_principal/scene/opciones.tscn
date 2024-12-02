@@ -1,13 +1,13 @@
-[gd_scene load_steps=12 format=3 uid="uid://gdbdi7borx0r"]
+[gd_scene load_steps=12 format=3 uid="uid://kly22u862si0"]
 
-[ext_resource type="Texture2D" uid="uid://dak4e68vnflr7" path="res://scenes/game/ui/menu_principal/imagenes/04e0d6ca50fea93744ac3ea87e346e5d.png" id="1_uus00"]
-[ext_resource type="Texture2D" uid="uid://dq6sjjrutedql" path="res://scenes/game/ui/menu_principal/imagenes/istockphoto-1208374725-612x612.png" id="2_x73o2"]
-[ext_resource type="Texture2D" uid="uid://hd7s66kv316i" path="res://scenes/game/ui/menu_principal/imagenes/images-_2_.png" id="3_2k51q"]
-[ext_resource type="FontFile" uid="uid://owfvcmuerawd" path="res://scenes/game/ui/menu_principal/fonts/Cross Boxed.ttf" id="4_n0rk7"]
-[ext_resource type="FontFile" uid="uid://c818vsi328jof" path="res://scenes/game/ui/menu_principal/fonts/Xolonium-Bold.ttf" id="5_a6e0i"]
-[ext_resource type="Texture2D" uid="uid://dwfbsruyuqi6r" path="res://scenes/game/ui/menu_principal/imagenes/carro.png" id="6_1ltdc"]
-[ext_resource type="Texture2D" uid="uid://b7q1bcj826kab" path="res://scenes/game/ui/menu_principal/imagenes/6.png" id="7_0p0kc"]
-[ext_resource type="Texture2D" uid="uid://bipxxv3bqcdwh" path="res://scenes/game/ui/menu_principal/imagenes/pixilart-drawing (2).png" id="8_ssvfy"]
+[ext_resource type="Texture2D" uid="uid://dak4e68vnflr7" path="res://scenes/game/ui/menu_principal/imagenes/04e0d6ca50fea93744ac3ea87e346e5d.png" id="1_ugjxu"]
+[ext_resource type="Texture2D" uid="uid://dq6sjjrutedql" path="res://scenes/game/ui/menu_principal/imagenes/istockphoto-1208374725-612x612.png" id="2_dls74"]
+[ext_resource type="Texture2D" uid="uid://hd7s66kv316i" path="res://scenes/game/ui/menu_principal/imagenes/images-_2_.png" id="3_8ts33"]
+[ext_resource type="FontFile" uid="uid://owfvcmuerawd" path="res://scenes/game/ui/menu_principal/fonts/Cross Boxed.ttf" id="4_a283m"]
+[ext_resource type="FontFile" uid="uid://c818vsi328jof" path="res://scenes/game/ui/menu_principal/fonts/Xolonium-Bold.ttf" id="5_fjw4e"]
+[ext_resource type="Texture2D" uid="uid://dwfbsruyuqi6r" path="res://scenes/game/ui/menu_principal/imagenes/carro.png" id="6_3qjoa"]
+[ext_resource type="Texture2D" uid="uid://b7q1bcj826kab" path="res://scenes/game/ui/menu_principal/imagenes/6.png" id="7_gg0va"]
+[ext_resource type="Texture2D" uid="uid://bipxxv3bqcdwh" path="res://scenes/game/ui/menu_principal/imagenes/pixilart-drawing (2).png" id="8_d1qof"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cs7ko"]
 bg_color = Color(0.764706, 0.545098, 0.392157, 1)
@@ -58,7 +58,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_uus00")
+texture = ExtResource("1_ugjxu")
 
 [node name="TextureRect2" type="TextureRect" parent="."]
 layout_mode = 0
@@ -66,7 +66,7 @@ offset_left = 495.0
 offset_top = 84.0
 offset_right = 1107.0
 offset_bottom = 564.0
-texture = ExtResource("2_x73o2")
+texture = ExtResource("2_dls74")
 
 [node name="TextureRect3" type="TextureRect" parent="."]
 layout_mode = 0
@@ -74,7 +74,7 @@ offset_left = 544.0
 offset_top = 116.0
 offset_right = 1062.0
 offset_bottom = 530.0
-texture = ExtResource("3_2k51q")
+texture = ExtResource("3_8ts33")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -94,27 +94,27 @@ theme_override_constants/separation = 50
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = ExtResource("4_n0rk7")
+theme_override_fonts/font = ExtResource("4_a283m")
 theme_override_font_sizes/font_size = 60
 text = "OZLO CAVE"
 
 [node name="Button" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("5_a6e0i")
+theme_override_fonts/font = ExtResource("5_fjw4e")
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_cs7ko")
 text = "COMENZAR"
 
 [node name="Button2" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("5_a6e0i")
+theme_override_fonts/font = ExtResource("5_fjw4e")
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_r3mh3")
 text = "OPCIONES"
 
 [node name="Button3" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-theme_override_fonts/font = ExtResource("5_a6e0i")
+theme_override_fonts/font = ExtResource("5_fjw4e")
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_6p705")
 text = "SALIR"
@@ -123,18 +123,18 @@ text = "SALIR"
 texture_filter = 1
 position = Vector2(131, 546)
 scale = Vector2(6.29167, 4.29167)
-texture = ExtResource("6_1ltdc")
+texture = ExtResource("6_3qjoa")
 
 [node name="6" type="Sprite2D" parent="."]
 texture_filter = 1
 position = Vector2(127, 421)
 scale = Vector2(3.58621, 3.48276)
-texture = ExtResource("7_0p0kc")
+texture = ExtResource("7_gg0va")
 
 [node name="Pixilart-drawing(2)" type="Sprite2D" parent="."]
 position = Vector2(314, 273)
 scale = Vector2(10.125, 11.5)
-texture = ExtResource("8_ssvfy")
+texture = ExtResource("8_d1qof")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
@@ -143,7 +143,7 @@ offset_top = 208.0
 offset_right = 387.0
 offset_bottom = 257.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("5_a6e0i")
+theme_override_fonts/font = ExtResource("5_fjw4e")
 theme_override_font_sizes/font_size = 20
 text = "Sobrevivi en
 la oscuridad"
