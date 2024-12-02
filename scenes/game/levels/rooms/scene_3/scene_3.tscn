@@ -12871,6 +12871,7 @@ position = Vector2(111, -65)
 sprite_frames = SubResource("SpriteFrames_bsv5w")
 animation = &"run"
 frame_progress = 0.667883
+flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemigo x"]
 position = Vector2(109, -65)
