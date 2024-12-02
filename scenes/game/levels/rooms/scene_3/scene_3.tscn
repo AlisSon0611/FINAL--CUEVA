@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://b1d750o6hts76"]
+[gd_scene load_steps=23 format=3 uid="uid://b1d750o6hts76"]
 
 [ext_resource type="Texture2D" uid="uid://ch25dseh144il" path="res://fondo fijo/Assets.png" id="1_xhbta"]
 [ext_resource type="PackedScene" uid="uid://ca3ueo0yewjov" path="res://scenes/game/characters/main_character/main_character.tscn" id="2_e4qjl"]
@@ -654,6 +654,34 @@ pattern_3 = SubResource("TileMapPattern_qo363")
 pattern_4 = SubResource("TileMapPattern_p1i20")
 pattern_5 = SubResource("TileMapPattern_si68b")
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_bsv5w"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"atack",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"get hit",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
 [node name="Main" type="Node2D"]
 
 [node name="TileMap2" type="TileMap" parent="."]
@@ -668,6 +696,15 @@ layer_2/tile_data = PackedInt32Array(1703963, 393216, 3, 1769499, 393216, 4, 183
 layer_3/name = "Cosas xd"
 layer_3/tile_data = PackedInt32Array()
 metadata/_edit_group_ = true
+
+[node name="Enemigo x" type="CharacterBody2D" parent="."]
+position = Vector2(97, 465)
+
+[node name="animate" type="AnimatedSprite2D" parent="Enemigo x"]
+sprite_frames = SubResource("SpriteFrames_bsv5w")
+animation = &"atack"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Enemigo x"]
 
 [node name="MainCharacter" parent="." instance=ExtResource("2_e4qjl")]
 position = Vector2(97, 465)
@@ -689,7 +726,6 @@ centered = false
 motion_mirroring = Vector2(450, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
-visible = false
 position = Vector2(69, 330)
 scale = Vector2(1.2, 1.2)
 texture = ExtResource("9_0seq8")
