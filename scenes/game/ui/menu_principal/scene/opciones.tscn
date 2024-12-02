@@ -1,35 +1,13 @@
-[gd_scene load_steps=12 format=3 uid="uid://kly22u862si0"]
+[gd_scene load_steps=10 format=3 uid="uid://kly22u862si0"]
 
 [ext_resource type="Texture2D" uid="uid://dak4e68vnflr7" path="res://scenes/game/ui/menu_principal/imagenes/04e0d6ca50fea93744ac3ea87e346e5d.png" id="1_ugjxu"]
+[ext_resource type="Script" path="res://scenes/game/ui/menu_principal/scene/opciones.gd" id="1_x4n2s"]
 [ext_resource type="Texture2D" uid="uid://dq6sjjrutedql" path="res://scenes/game/ui/menu_principal/imagenes/istockphoto-1208374725-612x612.png" id="2_dls74"]
-[ext_resource type="Texture2D" uid="uid://hd7s66kv316i" path="res://scenes/game/ui/menu_principal/imagenes/images-_2_.png" id="3_8ts33"]
-[ext_resource type="FontFile" uid="uid://owfvcmuerawd" path="res://scenes/game/ui/menu_principal/fonts/Cross Boxed.ttf" id="4_a283m"]
+[ext_resource type="Texture2D" uid="uid://canop2idfkec0" path="res://scenes/game/ui/menu_principal/imagenes/additional_sky.png" id="4_22kji"]
+[ext_resource type="FontFile" uid="uid://dmp43pi0vvmk2" path="res://scenes/game/ui/menu_principal/fonts/Sportscream.ttf" id="5_4yw36"]
 [ext_resource type="FontFile" uid="uid://c818vsi328jof" path="res://scenes/game/ui/menu_principal/fonts/Xolonium-Bold.ttf" id="5_fjw4e"]
-[ext_resource type="Texture2D" uid="uid://dwfbsruyuqi6r" path="res://scenes/game/ui/menu_principal/imagenes/carro.png" id="6_3qjoa"]
-[ext_resource type="Texture2D" uid="uid://b7q1bcj826kab" path="res://scenes/game/ui/menu_principal/imagenes/6.png" id="7_gg0va"]
-[ext_resource type="Texture2D" uid="uid://bipxxv3bqcdwh" path="res://scenes/game/ui/menu_principal/imagenes/pixilart-drawing (2).png" id="8_d1qof"]
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cs7ko"]
-bg_color = Color(0.764706, 0.545098, 0.392157, 1)
-border_width_left = 4
-border_width_top = 4
-border_width_right = 4
-border_width_bottom = 4
-corner_radius_top_left = 15
-corner_radius_top_right = 15
-corner_radius_bottom_right = 15
-corner_radius_bottom_left = 15
-
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r3mh3"]
-bg_color = Color(0.764706, 0.545098, 0.392157, 1)
-border_width_left = 4
-border_width_top = 4
-border_width_right = 4
-border_width_bottom = 4
-corner_radius_top_left = 15
-corner_radius_top_right = 15
-corner_radius_bottom_right = 15
-corner_radius_bottom_left = 15
+[ext_resource type="FontFile" uid="uid://bt87qv7nrudgj" path="res://scenes/game/ui/menu_principal/fonts/PressStart2P-Regular.ttf" id="7_kyn7o"]
+[ext_resource type="FontFile" uid="uid://bmf6brcbwtnyb" path="res://scenes/game/ui/menu_principal/fonts/ConnectionBold.otf" id="8_f8b6y"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6p705"]
 bg_color = Color(0.764706, 0.545098, 0.392157, 1)
@@ -42,13 +20,14 @@ corner_radius_top_right = 15
 corner_radius_bottom_right = 15
 corner_radius_bottom_left = 15
 
-[node name="MenuPrincipal" type="Control"]
+[node name="Opciones" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_x4n2s")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
@@ -61,89 +40,129 @@ grow_vertical = 2
 texture = ExtResource("1_ugjxu")
 
 [node name="TextureRect2" type="TextureRect" parent="."]
-layout_mode = 0
-offset_left = 495.0
-offset_top = 84.0
-offset_right = 1107.0
-offset_bottom = 564.0
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -388.0
+offset_top = -240.0
+offset_right = 402.0
+offset_bottom = 240.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("2_dls74")
 
 [node name="TextureRect3" type="TextureRect" parent="."]
-layout_mode = 0
-offset_left = 544.0
-offset_top = 116.0
-offset_right = 1062.0
-offset_bottom = 530.0
-texture = ExtResource("3_8ts33")
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -347.0
+offset_top = -207.0
+offset_right = 369.0
+offset_bottom = 207.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_22kji")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = 6
-anchor_left = 1.0
+anchors_preset = 8
+anchor_left = 0.5
 anchor_top = 0.5
-anchor_right = 1.0
+anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -547.0
-offset_top = -177.0
-offset_right = -154.0
-offset_bottom = 180.0
-grow_horizontal = 0
+offset_left = -208.0
+offset_top = -166.0
+offset_right = 208.0
+offset_bottom = 179.0
+grow_horizontal = 2
 grow_vertical = 2
-theme_override_constants/separation = 50
+theme_override_constants/separation = 220
 
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 4
-theme_override_fonts/font = ExtResource("4_a283m")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("5_4yw36")
 theme_override_font_sizes/font_size = 60
-text = "OZLO CAVE"
-
-[node name="Button" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("5_fjw4e")
-theme_override_font_sizes/font_size = 30
-theme_override_styles/normal = SubResource("StyleBoxFlat_cs7ko")
-text = "COMENZAR"
-
-[node name="Button2" type="Button" parent="VBoxContainer"]
-layout_mode = 2
-theme_override_fonts/font = ExtResource("5_fjw4e")
-theme_override_font_sizes/font_size = 30
-theme_override_styles/normal = SubResource("StyleBoxFlat_r3mh3")
-text = "OPCIONES"
+text = "-CONTROLES-"
 
 [node name="Button3" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("5_fjw4e")
 theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_6p705")
-text = "SALIR"
-
-[node name="Carro" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(131, 546)
-scale = Vector2(6.29167, 4.29167)
-texture = ExtResource("6_3qjoa")
-
-[node name="6" type="Sprite2D" parent="."]
-texture_filter = 1
-position = Vector2(127, 421)
-scale = Vector2(3.58621, 3.48276)
-texture = ExtResource("7_gg0va")
-
-[node name="Pixilart-drawing(2)" type="Sprite2D" parent="."]
-position = Vector2(314, 273)
-scale = Vector2(10.125, 11.5)
-texture = ExtResource("8_d1qof")
+text = "VOLVER AL MENÚ"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 292.0
-offset_top = 208.0
-offset_right = 387.0
-offset_bottom = 257.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("5_fjw4e")
-theme_override_font_sizes/font_size = 20
-text = "Sobrevivi en
-la oscuridad"
+offset_left = 674.0
+offset_top = 390.0
+offset_right = 786.0
+offset_bottom = 413.0
+theme_override_colors/font_color = Color(0.203922, 0.431373, 0.658824, 1)
+theme_override_fonts/font = ExtResource("7_kyn7o")
+theme_override_font_sizes/font_size = 15
+text = "Tecla X"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 260.0
+offset_top = 392.0
+offset_right = 538.0
+offset_bottom = 427.0
+theme_override_colors/font_color = Color(0.552941, 0.396078, 0.364706, 1)
+theme_override_fonts/font = ExtResource("8_f8b6y")
+theme_override_font_sizes/font_size = 25
+text = "-ATACAR CON ESPADA-"
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 674.0
+offset_top = 322.0
+offset_right = 786.0
+offset_bottom = 345.0
+theme_override_colors/font_color = Color(0.203922, 0.431373, 0.658824, 1)
+theme_override_fonts/font = ExtResource("7_kyn7o")
+theme_override_font_sizes/font_size = 15
+text = "Tecla S"
+
+[node name="Label4" type="Label" parent="."]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 322.0
+offset_right = 509.0
+offset_bottom = 357.0
+theme_override_colors/font_color = Color(0.552941, 0.396078, 0.364706, 1)
+theme_override_fonts/font = ExtResource("8_f8b6y")
+theme_override_font_sizes/font_size = 25
+text = "-LANZAR BOMBAS-"
+
+[node name="Label5" type="Label" parent="."]
+layout_mode = 0
+offset_left = 580.0
+offset_top = 260.0
+offset_right = 916.0
+offset_bottom = 283.0
+theme_override_colors/font_color = Color(0.203922, 0.431373, 0.658824, 1)
+theme_override_fonts/font = ExtResource("7_kyn7o")
+theme_override_font_sizes/font_size = 15
+text = "Tecla Flecha arriba ↑"
+
+[node name="Label6" type="Label" parent="."]
+layout_mode = 0
+offset_left = 338.0
+offset_top = 258.0
+offset_right = 449.0
+offset_bottom = 293.0
+theme_override_colors/font_color = Color(0.552941, 0.396078, 0.364706, 1)
+theme_override_fonts/font = ExtResource("8_f8b6y")
+theme_override_font_sizes/font_size = 25
+text = "-SALTAR-"
+
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_button_3_pressed"]

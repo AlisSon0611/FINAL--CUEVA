@@ -1,5 +1,6 @@
-[gd_scene load_steps=12 format=3 uid="uid://gdbdi7borx0r"]
+[gd_scene load_steps=13 format=3 uid="uid://gdbdi7borx0r"]
 
+[ext_resource type="Script" path="res://scenes/game/ui/menu_principal/scene/menu_principal.gd" id="1_3nhwc"]
 [ext_resource type="Texture2D" uid="uid://dak4e68vnflr7" path="res://scenes/game/ui/menu_principal/imagenes/04e0d6ca50fea93744ac3ea87e346e5d.png" id="1_uus00"]
 [ext_resource type="Texture2D" uid="uid://dq6sjjrutedql" path="res://scenes/game/ui/menu_principal/imagenes/istockphoto-1208374725-612x612.png" id="2_x73o2"]
 [ext_resource type="Texture2D" uid="uid://hd7s66kv316i" path="res://scenes/game/ui/menu_principal/imagenes/images-_2_.png" id="3_2k51q"]
@@ -49,6 +50,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_3nhwc")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
@@ -147,3 +149,7 @@ theme_override_fonts/font = ExtResource("5_a6e0i")
 theme_override_font_sizes/font_size = 20
 text = "Sobrevivi en
 la oscuridad"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button3" to="." method="_on_button_3_pressed"]

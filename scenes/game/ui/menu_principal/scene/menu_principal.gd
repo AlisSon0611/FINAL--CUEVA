@@ -1,12 +1,12 @@
 extends Node
 
 func _on_button_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://scenes/game/levels/rooms/scene_3/scene_3.tscn")
 
 
 func _on_button_2_pressed():
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://scenes/game/ui/menu_principal/scene/opciones.tscn")
 
 
 func _on_button_3_pressed():
-	pass # Replace with function body.
+	get_tree().quit()
