@@ -1,4 +1,4 @@
-[gd_scene load_steps=55 format=3 uid="uid://g8livmho01vu"]
+[gd_scene load_steps=59 format=3 uid="uid://g8livmho01vu"]
 
 [ext_resource type="Script" path="res://scenes/game/enemy/Worm/Enemigo x.gd" id="1_u6um2"]
 [ext_resource type="Texture2D" uid="uid://b1sq8xk3u6jq7" path="res://scenes/game/enemy/Worm/Attack.png" id="2_kxmb0"]
@@ -6,6 +6,9 @@
 [ext_resource type="Texture2D" uid="uid://ceogyokwovgoe" path="res://scenes/game/enemy/Worm/Get Hit.png" id="4_ie4nc"]
 [ext_resource type="Texture2D" uid="uid://co1lbv308axtv" path="res://scenes/game/enemy/Worm/Idle.png" id="5_s0h1q"]
 [ext_resource type="Texture2D" uid="uid://bf0habsfkuyjh" path="res://scenes/game/enemy/Worm/Walk.png" id="6_7pveb"]
+[ext_resource type="Texture2D" uid="uid://dh75ps276gm0g" path="res://assets/sprites/treasure_hunters/the_crusty_crew/sprites/crabby/11_attack_effect/attack_effect_01.png" id="7_o185i"]
+[ext_resource type="Texture2D" uid="uid://61tsaa7itvvm" path="res://assets/sprites/treasure_hunters/the_crusty_crew/sprites/crabby/11_attack_effect/attack_effect_02.png" id="8_al4ik"]
+[ext_resource type="Texture2D" uid="uid://l2xhb3srapic" path="res://assets/sprites/treasure_hunters/the_crusty_crew/sprites/crabby/11_attack_effect/attack_effect_03.png" id="9_cmpmp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e1bl3"]
 atlas = ExtResource("2_kxmb0")
@@ -353,6 +356,31 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7tbxo"]
 size = Vector2(47, 25)
 
+[sub_resource type="SpriteFrames" id="SpriteFrames_brm2s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_o185i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_al4ik")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_cmpmp")
+}],
+"loop": false,
+"name": &"attack_effect",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": null
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vwgtl"]
 size = Vector2(48, 25)
 
@@ -360,7 +388,7 @@ size = Vector2(48, 25)
 position = Vector2(97, 465)
 script = ExtResource("1_u6um2")
 
-[node name="animate" type="AnimatedSprite2D" parent="."]
+[node name="EnemyAnimation" type="AnimatedSprite2D" parent="."]
 position = Vector2(3, 2)
 scale = Vector2(0.911111, 0.922222)
 sprite_frames = SubResource("SpriteFrames_bsv5w")
@@ -371,6 +399,10 @@ flip_h = true
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(5.5, 2.5)
 shape = SubResource("RectangleShape2D_7tbxo")
+
+[node name="EnemyEffect" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_brm2s")
+animation = &"attack_effect"
 
 [node name="Area2D" type="Area2D" parent="."]
 
@@ -397,3 +429,6 @@ target_position = Vector2(-300, 0)
 position = Vector2(24, 0)
 scale = Vector2(0.5, 0.5)
 target_position = Vector2(300, 0)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+bus = &"Effects"

@@ -12512,9 +12512,11 @@ layer_3/tile_data = PackedInt32Array()
 metadata/_edit_group_ = true
 
 [node name="Enemigo x" parent="." instance=ExtResource("2_p5mkm")]
+animation = "run"
+moving_direction = "active"
 
 [node name="MainCharacter" parent="." instance=ExtResource("2_e4qjl")]
-position = Vector2(157, 450)
+position = Vector2(185, 399)
 
 [node name="Camera2D" parent="." node_paths=PackedStringArray("character") instance=ExtResource("3_nj4wd")]
 character = NodePath("../MainCharacter")
@@ -12710,7 +12712,7 @@ animation = &"green_bottle"
 frame_progress = 0.909259
 
 [node name="Crabby2" parent="." instance=ExtResource("13_6b558")]
-position = Vector2(353, 429)
+position = Vector2(296, 457)
 scale = Vector2(1.47149, 1.59841)
 animation = "run"
 moving_direction = "active"
