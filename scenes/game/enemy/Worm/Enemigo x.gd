@@ -5,6 +5,7 @@ extends CharacterBody2D
 var velocidad: int = 50
 
 func _ready():
+	$animate.play("run")
 	velocity.x =velocidad
 
 func _physics_process(delta):
@@ -18,5 +19,5 @@ func _physics_process(delta):
 
 	if velocity.x <0:
 		$animate.flip_h = false
-	else:
+	elif velocity.x >0 :
 		$animate.flip_h = true
