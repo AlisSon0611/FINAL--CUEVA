@@ -670,7 +670,7 @@ layer_3/tile_data = PackedInt32Array()
 metadata/_edit_group_ = true
 
 [node name="MainCharacter" parent="." instance=ExtResource("2_e4qjl")]
-position = Vector2(97, 465)
+position = Vector2(183, 405)
 
 [node name="Camera2D" parent="." node_paths=PackedStringArray("character") instance=ExtResource("3_nj4wd")]
 character = NodePath("../MainCharacter")
@@ -680,6 +680,7 @@ character = NodePath("../MainCharacter")
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+visible = false
 position = Vector2(2.00001, -31)
 scale = Vector2(8.6, 2.72426)
 texture = ExtResource("8_fm0x1")
@@ -689,6 +690,7 @@ centered = false
 motion_mirroring = Vector2(450, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+visible = false
 position = Vector2(69, 330)
 scale = Vector2(1.2, 1.2)
 texture = ExtResource("9_0seq8")
