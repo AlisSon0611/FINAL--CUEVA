@@ -1,21 +1,21 @@
 [gd_scene load_steps=4 format=3 uid="uid://c2e1lhm1w4re4"]
 
 [ext_resource type="Script" path="res://scenes/game/levels/objects/damage_object/spikes/spikes.gd" id="1_2du0x"]
-[ext_resource type="Texture2D" uid="uid://5va2c11ojds3" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/objects/spikes/spikes.png" id="2_afgux"]
+[ext_resource type="Texture2D" uid="uid://fe5u654m83wt" path="res://lava/FREE TILESET FILES/PROPS ( No Animations )/Rock2/Rock2.png" id="2_4ak5p"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_snodo"]
-size = Vector2(31, 16)
+size = Vector2(15.5, 16)
 
 [node name="Spikes" type="Node2D"]
 script = ExtResource("1_2du0x")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_afgux")
+texture = ExtResource("2_4ak5p")
 
 [node name="Area" type="Area2D" parent="."]
 
 [node name="CollisionShape" type="CollisionShape2D" parent="Area"]
-position = Vector2(-0.5, 8)
+position = Vector2(-0.75, -1)
 shape = SubResource("RectangleShape2D_snodo")
 
 [node name="Timer" type="Timer" parent="."]

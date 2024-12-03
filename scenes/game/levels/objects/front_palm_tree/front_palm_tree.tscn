@@ -1,41 +1,37 @@
-[gd_scene load_steps=11 format=3 uid="uid://c2nps502udtd6"]
+[gd_scene load_steps=10 format=3 uid="uid://c2nps502udtd6"]
 
-[ext_resource type="Texture2D" uid="uid://8awnoujdi0oo" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/front_palm_trees/front_palm_tree_top_01.png" id="1_gvuxi"]
-[ext_resource type="Texture2D" uid="uid://ch7ur25p23xx4" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/front_palm_trees/front_palm_tree_top_02.png" id="2_ttu7x"]
-[ext_resource type="Texture2D" uid="uid://c7awxy5b8efvt" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/front_palm_trees/front_palm_tree_top_03.png" id="3_v4n6e"]
-[ext_resource type="Texture2D" uid="uid://d2pf6crc8w4ig" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/front_palm_trees/front_palm_tree_top_04.png" id="4_q2qjq"]
+[ext_resource type="Texture2D" uid="uid://b7wisn1gc57vr" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 2/lavarock2.png" id="1_3m0fq"]
+[ext_resource type="Texture2D" uid="uid://bvvychqkg4b41" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 2/lavarock3.png" id="2_3hyvc"]
+[ext_resource type="Texture2D" uid="uid://cp72i2qxc0n3y" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 2/lavarock4.png" id="3_rpsrs"]
+[ext_resource type="Texture2D" uid="uid://ba1yfma767aw3" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 2/lavarock5.png" id="4_3rxo1"]
 [ext_resource type="Script" path="res://scenes/game/levels/objects/front_palm_tree/front_palm_tree.gd" id="5_kc2f4"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0qyc5"]
-atlas = ExtResource("1_gvuxi")
-region = Rect2(0, 0, 39, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_w58bq"]
-atlas = ExtResource("2_ttu7x")
-region = Rect2(0, 0, 39, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_k4ry0"]
-atlas = ExtResource("3_v4n6e")
-region = Rect2(0, 0, 39, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_v286r"]
-atlas = ExtResource("4_q2qjq")
-region = Rect2(0, 0, 39, 32)
+[ext_resource type="Texture2D" uid="uid://1v5nxgk6hun5" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 2/lavarock6.png" id="5_nwxd0"]
+[ext_resource type="Texture2D" uid="uid://cmibc86yu1wmr" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 2/lavarock7.png" id="6_lx8kw"]
+[ext_resource type="Texture2D" uid="uid://donpt8bjcyro2" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 2/lavarock8.png" id="7_v0a2h"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_p8vj6"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_0qyc5")
+"texture": ExtResource("1_3m0fq")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_w58bq")
+"texture": ExtResource("2_3hyvc")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_k4ry0")
+"texture": ExtResource("3_rpsrs")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_v286r")
+"texture": ExtResource("4_3rxo1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nwxd0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lx8kw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_v0a2h")
 }],
 "loop": true,
 "name": &"idle_front",
@@ -46,5 +42,5 @@ animations = [{
 position = Vector2(623, 432)
 sprite_frames = SubResource("SpriteFrames_p8vj6")
 animation = &"idle_front"
-frame_progress = 0.626995
+frame_progress = 0.23813
 script = ExtResource("5_kc2f4")

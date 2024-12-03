@@ -55,3 +55,7 @@ color = Color(0.243137, 0.266667, 0.305882, 0)
 libraries = {
 "": SubResource("AnimationLibrary_j8as3")
 }
+
+[node name="WogSmg" type="Sprite2D" parent="."]
+position = Vector2(589, 342)
+scale = Vector2(3.35591, 3.84682)
