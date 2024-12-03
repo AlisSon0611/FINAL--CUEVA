@@ -6648,6 +6648,7 @@ layer_3/tile_data = PackedInt32Array()
 metadata/_edit_group_ = true
 
 [node name="Enemigo x" parent="." instance=ExtResource("2_p5mkm")]
+visible = false
 animation = "run"
 moving_direction = "active"
 
@@ -6655,7 +6656,8 @@ moving_direction = "active"
 position = Vector2(185, 399)
 
 [node name="Enemigo y" parent="." instance=ExtResource("4_jbp1n")]
-position = Vector2(288, 460)
+visible = false
+position = Vector2(234, 322)
 animation = "run"
 moving_direction = "active"
 
@@ -6687,7 +6689,7 @@ centered = false
 motion_mirroring = Vector2(450, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
-position = Vector2(64, -13)
+position = Vector2(52, -20)
 scale = Vector2(1.2, 1.2)
 texture = ExtResource("9_0seq8")
 centered = false
@@ -6853,7 +6855,7 @@ animation = &"green_bottle"
 frame_progress = 0.909259
 
 [node name="Crabby2" parent="." instance=ExtResource("13_6b558")]
-position = Vector2(457, 356)
+position = Vector2(303, 454)
 scale = Vector2(1.47149, 1.59841)
 animation = "run"
 moving_direction = "active"
