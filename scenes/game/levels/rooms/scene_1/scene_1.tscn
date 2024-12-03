@@ -58,16 +58,40 @@ position = Vector2(437.5, 371.5)
 shape = SubResource("RectangleShape2D_3x710")
 
 [node name="Death" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(406, 615)
+position = Vector2(437, 612)
 
 [node name="Death2" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(661, 640)
+position = Vector2(543, 612)
 
 [node name="Death3" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(1008, 644)
+position = Vector2(737, 643)
+
+[node name="Death7" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(843, 643)
 
 [node name="Death4" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(1305, 644)
+position = Vector2(949, 643)
+
+[node name="Death8" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(1056, 643)
+
+[node name="Death9" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(1162, 643)
+
+[node name="Death10" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(1268, 643)
+
+[node name="Death12" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(1482, 643)
+
+[node name="Death11" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(1375, 643)
+
+[node name="Death5" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(546, 183)
+
+[node name="Death6" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(871, 331)
 
 [node name="Collectibles" type="Node2D" parent="."]
 
@@ -226,7 +250,7 @@ position = Vector2(718, -11)
 texture = ExtResource("13_amc1m")
 
 [node name="DoorChangeScene" parent="Objects" instance=ExtResource("17_ydyba")]
-position = Vector2(1342, -203)
+position = Vector2(1694, -443)
 scale = Vector2(0.8, 0.8)
 _path_to_scene = "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
 
