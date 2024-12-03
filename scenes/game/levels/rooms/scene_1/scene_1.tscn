@@ -50,7 +50,6 @@ autoplay = true
 bus = &"Ambient"
 
 [node name="Areas" type="Node2D" parent="."]
-visible = false
 
 [node name="AreaNextLevel" type="Area2D" parent="Areas"]
 
@@ -135,10 +134,12 @@ moving_direction = "active"
 position = Vector2(782, 339)
 
 [node name="Camera2D" parent="." node_paths=PackedStringArray("character") instance=ExtResource("1_8l71v")]
-limit_left = 65
-limit_top = 50
-limit_right = 1540
-limit_bottom = 560
+zoom = Vector2(1.885, 1.885)
+limit_left = 71
+limit_top = 11
+limit_right = 1886
+limit_bottom = 657
+limit_smoothed = true
 character = NodePath("../MainCharacter")
 
 [node name="PowerUp" parent="." instance=ExtResource("22_vr6n4")]
