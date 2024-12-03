@@ -253,7 +253,6 @@ metadata/_edit_group_ = true
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("1_0t8t3")
-rendering_quadrant_size = 32
 format = 2
 layer_0/name = "adornnos"
 layer_0/tile_data = PackedInt32Array(917553, 1245195, 12)
