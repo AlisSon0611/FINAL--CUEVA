@@ -28,7 +28,7 @@ script = ExtResource("1_j3e3j")
 color = Color(0, 0, 0, 1)
 
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
-color = Color(1, 1, 1, 0.0313726)
+color = Color(1, 1, 1, 0.0705882)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("1_0t8t3")
