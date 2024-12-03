@@ -126,10 +126,10 @@ position = Vector2(988, 184)
 animation = "gold_coin"
 
 [node name="Crabby" parent="." instance=ExtResource("18_dyrn2")]
-position = Vector2(613, 463)
+position = Vector2(526, 433)
 scale = Vector2(1.18458, 1.26755)
 animation = "run"
-moving_direction = "right"
+moving_direction = "active"
 
 [node name="Cannon" parent="." instance=ExtResource("19_msljc")]
 position = Vector2(782, 339)
@@ -149,7 +149,7 @@ animation = &"green_bottle"
 position = Vector2(294, 492)
 scale = Vector2(1.36338, 1.46673)
 animation = "run"
-moving_direction = "right"
+moving_direction = "active"
 metadata/_edit_group_ = true
 
 [node name="MainCharacter" parent="." instance=ExtResource("15_ooixx")]
@@ -209,7 +209,7 @@ position = Vector2(298, -108)
 texture = ExtResource("13_amc1m")
 
 [node name="DoorChangeScene" parent="Objects" instance=ExtResource("17_ydyba")]
-position = Vector2(1252, -135)
+position = Vector2(1331, -212)
 scale = Vector2(0.8, 0.8)
 _path_to_scene = "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
 
