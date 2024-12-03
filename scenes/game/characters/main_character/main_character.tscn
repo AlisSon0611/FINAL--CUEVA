@@ -45,12 +45,12 @@ height = 256
 fill = 1
 fill_from = Vector2(0.5, 0.5)
 
-[sub_resource type="Gradient" id="Gradient_a5s3m"]
+[sub_resource type="Gradient" id="Gradient_wvucj"]
 offsets = PackedFloat32Array(0.367521, 0.623932)
 colors = PackedColorArray(1, 0.901961, 0.682353, 1, 0, 0, 0, 0)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_k05qp"]
-gradient = SubResource("Gradient_a5s3m")
+gradient = SubResource("Gradient_wvucj")
 width = 256
 height = 256
 fill = 1
@@ -676,8 +676,7 @@ size = Vector2(19.5, 40)
 disable_mode = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-visible = false
-modulate = Color(1, 1, 0.764706, 0.203922)
+modulate = Color(1, 1, 0.764706, 0.0156863)
 texture = SubResource("GradientTexture2D_s5iif")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
