@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://bcil4n46byhj5"]
+[gd_scene load_steps=12 format=3 uid="uid://bcil4n46byhj5"]
 
 [ext_resource type="Script" path="res://scenes/game/levels/objects/back_palm_tree/back_palm_tree.gd" id="1_bh1tx"]
 [ext_resource type="Texture2D" uid="uid://dtes82x65l88f" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 1/lavarock1.png" id="9_18tbe"]
@@ -70,8 +70,25 @@ animations = [{
 "speed": 8.0
 }]
 
+[sub_resource type="Gradient" id="Gradient_a5s3m"]
+offsets = PackedFloat32Array(0.410256, 0.786325)
+colors = PackedColorArray(1, 0.901961, 0.682353, 1, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_t54l8"]
+gradient = SubResource("Gradient_a5s3m")
+width = 256
+height = 256
+fill = 2
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.478788, 0.106061)
+
 [node name="BackPalmTree" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_1djo4")
 animation = &"idle_regular"
 frame_progress = 0.784323
 script = ExtResource("1_bh1tx")
+
+[node name="PointLight2D2" type="PointLight2D" parent="."]
+modulate = Color(1, 0.901961, 0.682353, 1)
+color = Color(1, 1, 1, 0.627451)
+texture = SubResource("GradientTexture2D_t54l8")

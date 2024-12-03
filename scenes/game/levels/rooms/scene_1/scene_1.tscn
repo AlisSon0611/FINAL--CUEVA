@@ -250,11 +250,11 @@ frame_progress = 0.157831
 
 [node name="FrontPalmTree4" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(1241, 120)
+position = Vector2(1247, 121)
 
 [node name="FrontPalmTree5" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(1156, 133)
+position = Vector2(1044, 126)
 
 [node name="FrontPalmTree7" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
@@ -262,14 +262,18 @@ position = Vector2(788, 128)
 
 [node name="FrontPalmTree2" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(585, -332)
+position = Vector2(611, -335)
 
 [node name="BackPalmTree2" parent="Objects" instance=ExtResource("13_uwpfu")]
 position = Vector2(1437, 130)
 frame_progress = 0.0
 
 [node name="BackPalmTree3" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(1069, 132)
+position = Vector2(877, 131)
+frame_progress = 0.0
+
+[node name="BackPalmTree5" parent="Objects" instance=ExtResource("13_uwpfu")]
+position = Vector2(1137, 132)
 frame_progress = 0.0
 
 [node name="BackPalmTree4" parent="Objects" instance=ExtResource("13_uwpfu")]
@@ -304,10 +308,10 @@ position = Vector2(1700, -199)
 position = Vector2(1556, -295)
 
 [node name="PowerUp" parent="Objects" instance=ExtResource("22_vr6n4")]
-position = Vector2(884, -375)
+position = Vector2(882, -381)
 scale = Vector2(2.125, 1.875)
 
 [node name="PowerUp2" parent="Objects" instance=ExtResource("22_vr6n4")]
-position = Vector2(1537, 51)
+position = Vector2(1548, 40)
 scale = Vector2(2.125, 2.125)
 frame_progress = 0.52198
