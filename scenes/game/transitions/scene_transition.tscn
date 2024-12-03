@@ -1,7 +1,6 @@
-[gd_scene load_steps=6 format=3 uid="uid://c8htfidyxtt8v"]
+[gd_scene load_steps=5 format=3 uid="uid://c8htfidyxtt8v"]
 
 [ext_resource type="Script" path="res://scenes/game/transitions/scene_transition.gd" id="1_27m8u"]
-[ext_resource type="Texture2D" uid="uid://bh00nkojlrwws" path="res://scenes/game/transitions/WOGSmg.png" id="2_avjoy"]
 
 [sub_resource type="Animation" id="Animation_t2gy3"]
 length = 0.001
@@ -58,6 +57,5 @@ libraries = {
 }
 
 [node name="WogSmg" type="Sprite2D" parent="."]
-position = Vector2(577.75, 325.25)
+position = Vector2(589, 342)
 scale = Vector2(3.35591, 3.84682)
-texture = ExtResource("2_avjoy")
