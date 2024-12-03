@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://coyfuu1j6jcxm"
-path="res://.godot/imported/cmuntx.ttf-7a506561d49ee2d2266248e9d0bd83c0.fontdata"
+uid="uid://iat6ykkgmejf"
+path="res://.godot/imported/PressStart2P-Regular.ttf-bb77ccb6a8155db5dabebbf26aeec92f.fontdata"
 
 [deps]
 
-source_file="res://fonts/cmuntx.ttf"
-dest_files=["res://.godot/imported/cmuntx.ttf-7a506561d49ee2d2266248e9d0bd83c0.fontdata"]
+source_file="res://scenes/game/ui/main_principal/fonts/PressStart2P-Regular.ttf"
+dest_files=["res://.godot/imported/PressStart2P-Regular.ttf-bb77ccb6a8155db5dabebbf26aeec92f.fontdata"]
 
 [params]
 

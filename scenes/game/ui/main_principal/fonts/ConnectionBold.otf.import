@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://caqa0135dhetk"
-path="res://.godot/imported/Xolonium-Bold.ttf-d0e13aa61cf5126e06a50ddbd4eac170.fontdata"
+uid="uid://mfksqpv5dst5"
+path="res://.godot/imported/ConnectionBold.otf-5c570cebb48c1d17b07e79bb104b1907.fontdata"
 
 [deps]
 
-source_file="res://fonts/Xolonium-Bold.ttf"
-dest_files=["res://.godot/imported/Xolonium-Bold.ttf-d0e13aa61cf5126e06a50ddbd4eac170.fontdata"]
+source_file="res://scenes/game/ui/main_principal/fonts/ConnectionBold.otf"
+dest_files=["res://.godot/imported/ConnectionBold.otf-5c570cebb48c1d17b07e79bb104b1907.fontdata"]
 
 [params]
 

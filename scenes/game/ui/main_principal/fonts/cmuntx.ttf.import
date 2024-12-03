@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://ct1p764dtbpvp"
-path="res://.godot/imported/Cross Boxed.ttf-c49f56228d2c3051d77a449a7790fa0c.fontdata"
+uid="uid://coyfuu1j6jcxm"
+path="res://.godot/imported/cmuntx.ttf-b0af6bb237c85e193fb53f6335b44dde.fontdata"
 
 [deps]
 
-source_file="res://fonts/Cross Boxed.ttf"
-dest_files=["res://.godot/imported/Cross Boxed.ttf-c49f56228d2c3051d77a449a7790fa0c.fontdata"]
+source_file="res://scenes/game/ui/main_principal/fonts/cmuntx.ttf"
+dest_files=["res://.godot/imported/cmuntx.ttf-b0af6bb237c85e193fb53f6335b44dde.fontdata"]
 
 [params]
 

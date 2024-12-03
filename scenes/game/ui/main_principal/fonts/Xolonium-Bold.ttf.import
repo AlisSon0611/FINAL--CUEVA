@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://iat6ykkgmejf"
-path="res://.godot/imported/PressStart2P-Regular.ttf-c7d83f2c4bd295d4c960a93a703ae2b2.fontdata"
+uid="uid://caqa0135dhetk"
+path="res://.godot/imported/Xolonium-Bold.ttf-2b0231ecd7bfad1edadbf1fe61f8809b.fontdata"
 
 [deps]
 
-source_file="res://fonts/PressStart2P-Regular.ttf"
-dest_files=["res://.godot/imported/PressStart2P-Regular.ttf-c7d83f2c4bd295d4c960a93a703ae2b2.fontdata"]
+source_file="res://scenes/game/ui/main_principal/fonts/Xolonium-Bold.ttf"
+dest_files=["res://.godot/imported/Xolonium-Bold.ttf-2b0231ecd7bfad1edadbf1fe61f8809b.fontdata"]
 
 [params]
 

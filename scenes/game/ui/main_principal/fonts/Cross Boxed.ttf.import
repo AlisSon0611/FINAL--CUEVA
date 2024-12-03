@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://mfksqpv5dst5"
-path="res://.godot/imported/ConnectionBold.otf-d0c615a7bafc6c1b22cf458701569b70.fontdata"
+uid="uid://ct1p764dtbpvp"
+path="res://.godot/imported/Cross Boxed.ttf-2c8e58530c4ce87a1dbc4b4953c3f9f8.fontdata"
 
 [deps]
 
-source_file="res://fonts/ConnectionBold.otf"
-dest_files=["res://.godot/imported/ConnectionBold.otf-d0c615a7bafc6c1b22cf458701569b70.fontdata"]
+source_file="res://scenes/game/ui/main_principal/fonts/Cross Boxed.ttf"
+dest_files=["res://.godot/imported/Cross Boxed.ttf-2c8e58530c4ce87a1dbc4b4953c3f9f8.fontdata"]
 
 [params]
 

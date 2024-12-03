@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://dwbw8x1rw0cre"
-path="res://.godot/imported/Sportscream.ttf-c27a65c158544a8b98c4e62c47125d20.fontdata"
+path="res://.godot/imported/Sportscream.ttf-59e284d7f9bc8ef3a3d3c318d380184d.fontdata"
 
 [deps]
 
-source_file="res://fonts/Sportscream.ttf"
-dest_files=["res://.godot/imported/Sportscream.ttf-c27a65c158544a8b98c4e62c47125d20.fontdata"]
+source_file="res://scenes/game/ui/main_principal/fonts/Sportscream.ttf"
+dest_files=["res://.godot/imported/Sportscream.ttf-59e284d7f9bc8ef3a3d3c318d380184d.fontdata"]
 
 [params]
 
