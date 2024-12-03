@@ -273,7 +273,7 @@ position = Vector2(884, 130)
 frame_progress = 0.0
 
 [node name="BackPalmTree6" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(554, 92)
+position = Vector2(601, 98)
 frame_progress = 0.0
 
 [node name="BackPalmTree5" parent="Objects" instance=ExtResource("13_uwpfu")]
