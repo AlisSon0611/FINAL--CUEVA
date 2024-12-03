@@ -54,44 +54,29 @@ bus = &"Ambient"
 [node name="AreaNextLevel" type="Area2D" parent="Areas"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Areas/AreaNextLevel"]
-position = Vector2(437.5, 371.5)
+position = Vector2(421, 382)
 shape = SubResource("RectangleShape2D_3x710")
 
 [node name="Death" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(437, 612)
-
-[node name="Death2" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(543, 612)
+position = Vector2(389, 604)
 
 [node name="Death3" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(737, 643)
+position = Vector2(536, 604)
 
 [node name="Death7" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(843, 643)
-
-[node name="Death4" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(949, 643)
+position = Vector2(749, 632)
 
 [node name="Death8" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(1056, 643)
-
-[node name="Death9" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(1162, 643)
-
-[node name="Death10" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(1268, 643)
+position = Vector2(1019, 633)
 
 [node name="Death12" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(1482, 643)
-
-[node name="Death11" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(1375, 643)
+position = Vector2(1380, 633)
 
 [node name="Death5" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(546, 183)
+position = Vector2(527, 172)
 
 [node name="Death6" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(871, 331)
+position = Vector2(836, 314)
 
 [node name="Collectibles" type="Node2D" parent="."]
 
@@ -108,27 +93,27 @@ position = Vector2(388, 419)
 animation = "gold_coin"
 
 [node name="PickableObject4" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(535, 381)
+position = Vector2(759, 87)
 animation = "gold_coin"
 
 [node name="PickableObject5" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(557, 381)
+position = Vector2(739, 519)
 animation = "gold_coin"
 
 [node name="PickableObject6" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(579, 381)
+position = Vector2(1023, 573)
 animation = "gold_coin"
 
 [node name="PickableObject7" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(1060, 328)
+position = Vector2(1027, 283)
 animation = "red_diamond"
 
 [node name="PickableObject8" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(1089, 328)
+position = Vector2(1061, 281)
 animation = "red_diamond"
 
 [node name="PickableObject9" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(1116, 328)
+position = Vector2(1090, 282)
 animation = "red_diamond"
 
 [node name="RedPotion" parent="Collectibles" instance=ExtResource("20_1tp5l")]
@@ -138,23 +123,51 @@ position = Vector2(416, 432)
 position = Vector2(1350, 437)
 
 [node name="PickableObject10" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(459, 471)
+position = Vector2(1529, 311)
+animation = "blue_diamond"
+
+[node name="PickableObject21" parent="Collectibles" instance=ExtResource("20_juf85")]
+position = Vector2(1369, 103)
 animation = "blue_diamond"
 
 [node name="PickableObject11" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(128, 367)
+position = Vector2(114, 367)
 animation = "green_diamond"
 
 [node name="PickableObject12" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(281, 326)
+position = Vector2(427, 106)
 animation = "gold_coin"
 
 [node name="PickableObject13" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(302, 341)
+position = Vector2(102, 397)
 animation = "gold_coin"
 
 [node name="PickableObject14" parent="Collectibles" instance=ExtResource("20_juf85")]
-position = Vector2(988, 184)
+position = Vector2(986, 122)
+animation = "gold_coin"
+
+[node name="PickableObject15" parent="Collectibles" instance=ExtResource("20_juf85")]
+position = Vector2(1281, 543)
+animation = "blue_diamond"
+
+[node name="PickableObject16" parent="Collectibles" instance=ExtResource("20_juf85")]
+position = Vector2(1430, 569)
+animation = "green_diamond"
+
+[node name="PickableObject17" parent="Collectibles" instance=ExtResource("20_juf85")]
+position = Vector2(1141, 108)
+animation = "gold_coin"
+
+[node name="PickableObject18" parent="Collectibles" instance=ExtResource("20_juf85")]
+position = Vector2(1564, 309)
+animation = "gold_coin"
+
+[node name="PickableObject20" parent="Collectibles" instance=ExtResource("20_juf85")]
+position = Vector2(1544, 283)
+animation = "gold_coin"
+
+[node name="PickableObject19" parent="Collectibles" instance=ExtResource("20_juf85")]
+position = Vector2(1836, 266)
 animation = "gold_coin"
 
 [node name="Crabby" parent="." instance=ExtResource("18_dyrn2")]
@@ -175,10 +188,6 @@ limit_bottom = 657
 limit_smoothed = true
 character = NodePath("../MainCharacter")
 
-[node name="PowerUp" parent="." instance=ExtResource("22_vr6n4")]
-position = Vector2(203, 370)
-animation = &"green_bottle"
-
 [node name="Crabby2" parent="." instance=ExtResource("18_dyrn2")]
 position = Vector2(420, 438)
 scale = Vector2(1.36338, 1.46673)
@@ -193,6 +202,20 @@ animation = "run"
 moving_direction = "active"
 metadata/_edit_group_ = true
 
+[node name="Crabby5" parent="." instance=ExtResource("18_dyrn2")]
+position = Vector2(1465, 126)
+scale = Vector2(1.17719, 1.27873)
+animation = "run"
+moving_direction = "active"
+metadata/_edit_group_ = true
+
+[node name="Crabby4" parent="." instance=ExtResource("18_dyrn2")]
+position = Vector2(1437, 328)
+scale = Vector2(1.17719, 1.27873)
+animation = "run"
+moving_direction = "active"
+metadata/_edit_group_ = true
+
 [node name="MainCharacter" parent="." instance=ExtResource("15_ooixx")]
 position = Vector2(124, 526)
 
@@ -200,52 +223,54 @@ position = Vector2(124, 526)
 position = Vector2(140, 511)
 
 [node name="Reflect" type="Sprite2D" parent="Objects"]
-position = Vector2(555, 89)
-scale = Vector2(2.63679, 1.75001)
+position = Vector2(555, 84)
+scale = Vector2(2.63679, 1.33333)
 texture = ExtResource("12_aiw82")
 
 [node name="Reflect2" type="Sprite2D" parent="Objects"]
-position = Vector2(402, -48)
-scale = Vector2(2, 2)
+position = Vector2(932, -201)
+scale = Vector2(1.03774, 2)
 texture = ExtResource("12_aiw82")
 
 [node name="Reflect3" type="Sprite2D" parent="Objects"]
-position = Vector2(1063, -48)
-scale = Vector2(2, 2)
+position = Vector2(1108.5, 116.5)
+scale = Vector2(2.62264, 1.00001)
 texture = ExtResource("12_aiw82")
 
 [node name="FrontPalmTree" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(483, -79)
+position = Vector2(469, 96)
+frame_progress = 0.157831
 
 [node name="FrontPalmTree4" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(-29, -78)
+position = Vector2(1241, 120)
 
 [node name="FrontPalmTree5" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(323, -78)
+position = Vector2(1156, 133)
 
 [node name="FrontPalmTree7" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(739, -205)
+position = Vector2(788, 128)
 
 [node name="FrontPalmTree2" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(-29, -206)
+position = Vector2(585, -332)
 
 [node name="BackPalmTree2" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(-21, -130)
-animation = &"idle_left"
+position = Vector2(1437, 130)
+frame_progress = 0.0
 
 [node name="BackPalmTree3" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(781, -148)
-animation = &"idle_left"
+position = Vector2(1069, 132)
+frame_progress = 0.0
 
 [node name="BackPalmTree4" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(603, -134)
+position = Vector2(918, -186)
 
 [node name="Flag" type="Sprite2D" parent="Objects"]
+visible = false
 position = Vector2(718, -11)
 texture = ExtResource("13_amc1m")
 
@@ -255,7 +280,28 @@ scale = Vector2(0.8, 0.8)
 _path_to_scene = "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
 
 [node name="Spikes" parent="Objects" instance=ExtResource("19_4ldx5")]
-position = Vector2(323, 116)
+position = Vector2(286, -372)
 
 [node name="Spikes3" parent="Objects" instance=ExtResource("19_4ldx5")]
-position = Vector2(375, 111)
+position = Vector2(-4, -291)
+
+[node name="Spikes4" parent="Objects" instance=ExtResource("19_4ldx5")]
+position = Vector2(1028, -295)
+
+[node name="Spikes5" parent="Objects" instance=ExtResource("19_4ldx5")]
+position = Vector2(1228, -373)
+
+[node name="Spikes7" parent="Objects" instance=ExtResource("19_4ldx5")]
+position = Vector2(1700, -199)
+
+[node name="Spikes6" parent="Objects" instance=ExtResource("19_4ldx5")]
+position = Vector2(1556, -295)
+
+[node name="PowerUp" parent="Objects" instance=ExtResource("22_vr6n4")]
+position = Vector2(884, -369)
+scale = Vector2(2.125, 1.5)
+
+[node name="PowerUp2" parent="Objects" instance=ExtResource("22_vr6n4")]
+position = Vector2(1537, 61)
+scale = Vector2(2.125, 1.5)
+animation = &"green_bottle"

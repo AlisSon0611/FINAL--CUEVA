@@ -1,98 +1,43 @@
-[gd_scene load_steps=27 format=3 uid="uid://bcil4n46byhj5"]
+[gd_scene load_steps=10 format=3 uid="uid://bcil4n46byhj5"]
 
 [ext_resource type="Script" path="res://scenes/game/levels/objects/back_palm_tree/back_palm_tree.gd" id="1_bh1tx"]
-[ext_resource type="Texture2D" uid="uid://ckuup75600332" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_left_01.png" id="1_gt3vx"]
-[ext_resource type="Texture2D" uid="uid://dd3tqgwlrgcoa" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_left_02.png" id="2_lcb0m"]
-[ext_resource type="Texture2D" uid="uid://p13rird35c8u" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_left_03.png" id="3_4m4ka"]
-[ext_resource type="Texture2D" uid="uid://dfomglkgj563b" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_left_04.png" id="4_7mnln"]
-[ext_resource type="Texture2D" uid="uid://bs8l41know8hu" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_regular_01.png" id="6_gngq0"]
-[ext_resource type="Texture2D" uid="uid://ba1cejfqvp520" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_regular_02.png" id="7_vsis7"]
-[ext_resource type="Texture2D" uid="uid://b2yyy26ooxgvv" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_regular_03.png" id="8_u06qa"]
-[ext_resource type="Texture2D" uid="uid://dpy5n2huytbj" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_regular_04.png" id="9_v4r15"]
-[ext_resource type="Texture2D" uid="uid://c4truvubnc8w5" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_right_01.png" id="10_iqnyq"]
-[ext_resource type="Texture2D" uid="uid://bqmy4jqv4pp6j" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_right_02.png" id="11_nac5l"]
-[ext_resource type="Texture2D" uid="uid://igpjhy0hbkol" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_right_03.png" id="12_moamy"]
-[ext_resource type="Texture2D" uid="uid://i3f5i82nuowa" path="res://assets/sprites/treasure_hunters/palm_tree_island/sprites/back_palm_trees/back_palm_tree_right_04.png" id="13_tp4cf"]
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_kygsy"]
-atlas = ExtResource("1_gt3vx")
-region = Rect2(0, 0, 51, 53)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_fwilj"]
-atlas = ExtResource("2_lcb0m")
-region = Rect2(0, 0, 51, 53)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_eqp2l"]
-atlas = ExtResource("3_4m4ka")
-region = Rect2(0, 0, 51, 53)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_wyotq"]
-atlas = ExtResource("4_7mnln")
-region = Rect2(0, 0, 51, 53)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_c0fkt"]
-atlas = ExtResource("6_gngq0")
-region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_6awv6"]
-atlas = ExtResource("7_vsis7")
-region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_8e4cr"]
-atlas = ExtResource("8_u06qa")
-region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_or3nq"]
-atlas = ExtResource("9_v4r15")
-region = Rect2(0, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_tye8e"]
-atlas = ExtResource("10_iqnyq")
-region = Rect2(0, 0, 52, 53)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_yj4mf"]
-atlas = ExtResource("11_nac5l")
-region = Rect2(0, 0, 52, 53)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ey3i4"]
-atlas = ExtResource("12_moamy")
-region = Rect2(0, 0, 52, 53)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_8m76q"]
-atlas = ExtResource("13_tp4cf")
-region = Rect2(0, 0, 52, 53)
+[ext_resource type="Texture2D" uid="uid://dtes82x65l88f" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 1/lavarock1.png" id="9_18tbe"]
+[ext_resource type="Texture2D" uid="uid://bc76yirybv81y" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 1/lavarock2.png" id="10_2xn5e"]
+[ext_resource type="Texture2D" uid="uid://bi3vc14p76ku0" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 1/lavarock3.png" id="11_l8vg3"]
+[ext_resource type="Texture2D" uid="uid://bt5grjxbeluyb" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 1/lavarock4.png" id="12_3ru7w"]
+[ext_resource type="Texture2D" uid="uid://cwcn6dlrycldb" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 1/lavarock5.png" id="13_nk5iv"]
+[ext_resource type="Texture2D" uid="uid://bi3eem4p5nc6b" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 1/lavarock6.png" id="14_kmd87"]
+[ext_resource type="Texture2D" uid="uid://bmq2i003goo8q" path="res://lava/FREE TILESET FILES/Environment ( With Animations )/Lava Rock 1/lavarock7.png" id="15_s0j1v"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_1djo4"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_kygsy")
+"texture": ExtResource("9_18tbe")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_fwilj")
+"texture": ExtResource("10_2xn5e")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_eqp2l")
+"texture": ExtResource("9_18tbe")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_wyotq")
-}],
-"loop": true,
-"name": &"idle_left",
-"speed": 8.0
-}, {
-"frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_c0fkt")
+"texture": ExtResource("10_2xn5e")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_6awv6")
+"texture": ExtResource("11_l8vg3")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_8e4cr")
+"texture": ExtResource("12_3ru7w")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_or3nq")
+"texture": ExtResource("13_nk5iv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_kmd87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_s0j1v")
 }],
 "loop": true,
 "name": &"idle_regular",
@@ -100,16 +45,25 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_tye8e")
+"texture": ExtResource("9_18tbe")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_yj4mf")
+"texture": ExtResource("10_2xn5e")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_ey3i4")
+"texture": ExtResource("11_l8vg3")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_8m76q")
+"texture": ExtResource("12_3ru7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nk5iv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_kmd87")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_s0j1v")
 }],
 "loop": true,
 "name": &"idle_right",
@@ -118,5 +72,6 @@ animations = [{
 
 [node name="BackPalmTree" type="AnimatedSprite2D"]
 sprite_frames = SubResource("SpriteFrames_1djo4")
-animation = &"idle_right"
+animation = &"idle_regular"
+frame_progress = 0.784323
 script = ExtResource("1_bh1tx")
