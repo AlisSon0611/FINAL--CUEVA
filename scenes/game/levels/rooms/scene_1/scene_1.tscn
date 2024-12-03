@@ -24,6 +24,12 @@ size = Vector2(31, 21)
 [node name="Main2" type="Node2D"]
 script = ExtResource("1_j3e3j")
 
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0, 0, 0, 1)
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
+color = Color(1, 1, 1, 0.243137)
+
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("1_0t8t3")
 format = 2
@@ -305,9 +311,3 @@ scale = Vector2(2.125, 1.5)
 position = Vector2(1537, 51)
 scale = Vector2(2.125, 2.125)
 frame_progress = 0.52198
-
-[node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color(0, 0, 0, 1)
-
-[node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
-color = Color(1, 1, 1, 0.117647)

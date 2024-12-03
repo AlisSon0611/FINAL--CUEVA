@@ -677,7 +677,7 @@ disable_mode = 1
 texture = SubResource("GradientTexture2D_s5iif")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-color = Color(1, 1, 0.639216, 0.505882)
+color = Color(1, 1, 1, 0.505882)
 texture = SubResource("GradientTexture2D_k05qp")
 
 [node name="MainCharacterMovement" type="Node2D" parent="." node_paths=PackedStringArray("character", "main_animation", "effect_animation_sword", "audio_player")]
