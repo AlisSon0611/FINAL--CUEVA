@@ -62,70 +62,6 @@ shape = SubResource("RectangleShape2D_3x710")
 [node name="Death" parent="Areas" instance=ExtResource("16_kwprd")]
 position = Vector2(518, 538)
 
-[node name="Objects" type="Node2D" parent="."]
-position = Vector2(140, 511)
-
-[node name="Reflect" type="Sprite2D" parent="Objects"]
-position = Vector2(60, -48)
-scale = Vector2(2, 2)
-texture = ExtResource("12_aiw82")
-
-[node name="Reflect2" type="Sprite2D" parent="Objects"]
-position = Vector2(402, -48)
-scale = Vector2(2, 2)
-texture = ExtResource("12_aiw82")
-
-[node name="Reflect3" type="Sprite2D" parent="Objects"]
-position = Vector2(1063, -48)
-scale = Vector2(2, 2)
-texture = ExtResource("12_aiw82")
-
-[node name="FrontPalmTree" parent="Objects" instance=ExtResource("14_uwyh7")]
-z_index = 1
-position = Vector2(483, -79)
-
-[node name="FrontPalmTree4" parent="Objects" instance=ExtResource("14_uwyh7")]
-z_index = 1
-position = Vector2(-29, -78)
-
-[node name="FrontPalmTree5" parent="Objects" instance=ExtResource("14_uwyh7")]
-z_index = 1
-position = Vector2(323, -78)
-
-[node name="FrontPalmTree7" parent="Objects" instance=ExtResource("14_uwyh7")]
-z_index = 1
-position = Vector2(739, -205)
-
-[node name="FrontPalmTree2" parent="Objects" instance=ExtResource("14_uwyh7")]
-z_index = 1
-position = Vector2(-29, -206)
-
-[node name="BackPalmTree2" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(-21, -130)
-animation = &"idle_left"
-
-[node name="BackPalmTree3" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(781, -148)
-animation = &"idle_left"
-
-[node name="BackPalmTree4" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(603, -134)
-
-[node name="Flag" type="Sprite2D" parent="Objects"]
-position = Vector2(298, -108)
-texture = ExtResource("13_amc1m")
-
-[node name="DoorChangeScene" parent="Objects" instance=ExtResource("17_ydyba")]
-position = Vector2(1252, -135)
-scale = Vector2(0.8, 0.8)
-_path_to_scene = "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
-
-[node name="Spikes" parent="Objects" instance=ExtResource("19_4ldx5")]
-position = Vector2(389, 17)
-
-[node name="Spikes3" parent="Objects" instance=ExtResource("19_4ldx5")]
-position = Vector2(421, 18)
-
 [node name="Collectibles" type="Node2D" parent="."]
 
 [node name="PickableObject" parent="Collectibles" instance=ExtResource("20_juf85")]
@@ -222,3 +158,67 @@ metadata/_edit_group_ = true
 
 [node name="MainCharacter" parent="." instance=ExtResource("15_ooixx")]
 position = Vector2(120, 521)
+
+[node name="Objects" type="Node2D" parent="."]
+position = Vector2(140, 511)
+
+[node name="Reflect" type="Sprite2D" parent="Objects"]
+position = Vector2(555, 89)
+scale = Vector2(2.63679, 1.75001)
+texture = ExtResource("12_aiw82")
+
+[node name="Reflect2" type="Sprite2D" parent="Objects"]
+position = Vector2(402, -48)
+scale = Vector2(2, 2)
+texture = ExtResource("12_aiw82")
+
+[node name="Reflect3" type="Sprite2D" parent="Objects"]
+position = Vector2(1063, -48)
+scale = Vector2(2, 2)
+texture = ExtResource("12_aiw82")
+
+[node name="FrontPalmTree" parent="Objects" instance=ExtResource("14_uwyh7")]
+z_index = 1
+position = Vector2(483, -79)
+
+[node name="FrontPalmTree4" parent="Objects" instance=ExtResource("14_uwyh7")]
+z_index = 1
+position = Vector2(-29, -78)
+
+[node name="FrontPalmTree5" parent="Objects" instance=ExtResource("14_uwyh7")]
+z_index = 1
+position = Vector2(323, -78)
+
+[node name="FrontPalmTree7" parent="Objects" instance=ExtResource("14_uwyh7")]
+z_index = 1
+position = Vector2(739, -205)
+
+[node name="FrontPalmTree2" parent="Objects" instance=ExtResource("14_uwyh7")]
+z_index = 1
+position = Vector2(-29, -206)
+
+[node name="BackPalmTree2" parent="Objects" instance=ExtResource("13_uwpfu")]
+position = Vector2(-21, -130)
+animation = &"idle_left"
+
+[node name="BackPalmTree3" parent="Objects" instance=ExtResource("13_uwpfu")]
+position = Vector2(781, -148)
+animation = &"idle_left"
+
+[node name="BackPalmTree4" parent="Objects" instance=ExtResource("13_uwpfu")]
+position = Vector2(603, -134)
+
+[node name="Flag" type="Sprite2D" parent="Objects"]
+position = Vector2(298, -108)
+texture = ExtResource("13_amc1m")
+
+[node name="DoorChangeScene" parent="Objects" instance=ExtResource("17_ydyba")]
+position = Vector2(1252, -135)
+scale = Vector2(0.8, 0.8)
+_path_to_scene = "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
+
+[node name="Spikes" parent="Objects" instance=ExtResource("19_4ldx5")]
+position = Vector2(389, 17)
+
+[node name="Spikes3" parent="Objects" instance=ExtResource("19_4ldx5")]
+position = Vector2(421, 18)
