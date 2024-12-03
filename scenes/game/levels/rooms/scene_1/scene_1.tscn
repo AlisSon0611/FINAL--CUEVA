@@ -302,5 +302,12 @@ position = Vector2(884, -369)
 scale = Vector2(2.125, 1.5)
 
 [node name="PowerUp2" parent="Objects" instance=ExtResource("22_vr6n4")]
-position = Vector2(1537, 61)
-scale = Vector2(2.125, 1.5)
+position = Vector2(1537, 51)
+scale = Vector2(2.125, 2.125)
+frame_progress = 0.52198
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+color = Color(0.0823529, 0.0666667, 0.0509804, 1)
+
+[node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
+color = Color(1, 1, 1, 0.0745098)

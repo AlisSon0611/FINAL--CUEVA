@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://dl8afnvp5w315"]
+[gd_scene load_steps=24 format=3 uid="uid://dl8afnvp5w315"]
 
 [ext_resource type="Texture2D" uid="uid://bkmlr0847xdsc" path="res://lava/FREE TILESET FILES/PROPS ( With Animations )/Chest GOLD/goldchest1.png" id="1_i4ssf"]
 [ext_resource type="Texture2D" uid="uid://lwkaris00ws2" path="res://lava/FREE TILESET FILES/PROPS ( With Animations )/Chest GOLD/goldchest2.png" id="2_jo35x"]
@@ -92,6 +92,17 @@ animations = [{
 "speed": 8.0
 }]
 
+[sub_resource type="Gradient" id="Gradient_3pwsp"]
+offsets = PackedFloat32Array(0.136752, 0.606838)
+colors = PackedColorArray(1, 0.827451, 0.392157, 0.835294, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_ffsot"]
+gradient = SubResource("Gradient_3pwsp")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5ipr5"]
 size = Vector2(14, 18)
 
@@ -99,6 +110,10 @@ size = Vector2(14, 18)
 sprite_frames = SubResource("SpriteFrames_wb3wn")
 animation = &"green_bottle"
 script = ExtResource("15_c0w6i")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+modulate = Color(1, 0.882353, 0.431373, 0.34902)
+texture = SubResource("GradientTexture2D_ffsot")
 
 [node name="Area" type="Area2D" parent="."]
 
