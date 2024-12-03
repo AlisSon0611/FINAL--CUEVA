@@ -146,8 +146,15 @@ position = Vector2(203, 370)
 animation = &"green_bottle"
 
 [node name="Crabby2" parent="." instance=ExtResource("18_dyrn2")]
-position = Vector2(294, 492)
+position = Vector2(434, 440)
 scale = Vector2(1.36338, 1.46673)
+animation = "run"
+moving_direction = "active"
+metadata/_edit_group_ = true
+
+[node name="Crabby3" parent="." instance=ExtResource("18_dyrn2")]
+position = Vector2(241, 522)
+scale = Vector2(1.17719, 1.27873)
 animation = "run"
 moving_direction = "active"
 metadata/_edit_group_ = true
@@ -205,7 +212,7 @@ animation = &"idle_left"
 position = Vector2(603, -134)
 
 [node name="Flag" type="Sprite2D" parent="Objects"]
-position = Vector2(298, -108)
+position = Vector2(718, -11)
 texture = ExtResource("13_amc1m")
 
 [node name="DoorChangeScene" parent="Objects" instance=ExtResource("17_ydyba")]
