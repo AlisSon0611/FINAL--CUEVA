@@ -1,4 +1,4 @@
-[gd_scene load_steps=103 format=3 uid="uid://ca3ueo0yewjov"]
+[gd_scene load_steps=107 format=3 uid="uid://ca3ueo0yewjov"]
 
 [ext_resource type="Script" path="res://scenes/game/characters/main_character/MainCharacterBomb.gd" id="3_odvu6"]
 [ext_resource type="Texture2D" uid="uid://beme6o1g7rqmp" path="res://scenes/game/characters/Knight_player/Attack_KG_1.png" id="4_xdr6d"]
@@ -33,6 +33,26 @@
 [ext_resource type="Texture2D" uid="uid://cxctf3c5kurwl" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dust_particles/run_04.png" id="55_qndtn"]
 [ext_resource type="Texture2D" uid="uid://dfilactnw23ej" path="res://assets/sprites/treasure_hunters/captain_clown_nose/sprites/dust_particles/run_05.png" id="56_e847i"]
 [ext_resource type="Script" path="res://scenes/game/characters/main_character/main_character_collision.gd" id="57_7h47x"]
+
+[sub_resource type="Gradient" id="Gradient_nphf2"]
+offsets = PackedFloat32Array(0.111111, 0.282051)
+colors = PackedColorArray(1, 1, 0.772549, 0.780392, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_s5iif"]
+gradient = SubResource("Gradient_nphf2")
+width = 256
+height = 256
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[sub_resource type="Gradient" id="Gradient_a5s3m"]
+offsets = PackedFloat32Array(0.0854701, 1)
+colors = PackedColorArray(1, 1, 0.843137, 0.74902, 0, 0, 0, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_k05qp"]
+gradient = SubResource("Gradient_a5s3m")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_66ek2"]
 atlas = ExtResource("4_xdr6d")
@@ -653,6 +673,13 @@ size = Vector2(19.5, 40)
 [node name="MainCharacter" type="CharacterBody2D" groups=["player"]]
 disable_mode = 1
 
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("GradientTexture2D_s5iif")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+color = Color(1, 1, 0.639216, 0.505882)
+texture = SubResource("GradientTexture2D_k05qp")
+
 [node name="MainCharacterMovement" type="Node2D" parent="." node_paths=PackedStringArray("character", "main_animation", "effect_animation_sword", "audio_player")]
 script = ExtResource("7_fm4k8")
 character = NodePath("..")
@@ -668,13 +695,13 @@ character = NodePath("..")
 script = ExtResource("3_odvu6")
 
 [node name="Animation" type="AnimatedSprite2D" parent="."]
-position = Vector2(-5, -7.5)
+position = Vector2(2, 1.43051e-06)
 scale = Vector2(0.52, 0.546875)
 sprite_frames = SubResource("SpriteFrames_sohxe")
 animation = &"fall_with_sword"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-8, -6)
+position = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_q04ya")
 
 [node name="Effects" type="AnimatedSprite2D" parent="."]
