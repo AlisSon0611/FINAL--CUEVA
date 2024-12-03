@@ -35,7 +35,7 @@
 [ext_resource type="Script" path="res://scenes/game/characters/main_character/main_character_collision.gd" id="57_7h47x"]
 
 [sub_resource type="Gradient" id="Gradient_nphf2"]
-offsets = PackedFloat32Array(0.111111, 0.282051)
+offsets = PackedFloat32Array(0.230769, 0.598291)
 colors = PackedColorArray(1, 1, 0.921569, 0.992157, 0, 0, 0, 0)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_s5iif"]
@@ -46,11 +46,13 @@ fill = 1
 fill_from = Vector2(0.5, 0.5)
 
 [sub_resource type="Gradient" id="Gradient_a5s3m"]
-offsets = PackedFloat32Array(0.0854701, 1)
+offsets = PackedFloat32Array(0.418803, 0.65812)
 colors = PackedColorArray(1, 1, 0.843137, 0.74902, 0, 0, 0, 0)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_k05qp"]
 gradient = SubResource("Gradient_a5s3m")
+width = 256
+height = 256
 fill = 1
 fill_from = Vector2(0.5, 0.5)
 
