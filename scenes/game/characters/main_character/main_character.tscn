@@ -401,6 +401,7 @@ position = Vector2(-1, -2.5)
 shape = SubResource("RectangleShape2D_q04ya")
 
 [node name="Effects" type="AnimatedSprite2D" parent="."]
+visible = false
 modulate = Color(0.137255, 0.423529, 0, 1)
 sprite_frames = SubResource("SpriteFrames_cwldb")
 animation = &"fall"
