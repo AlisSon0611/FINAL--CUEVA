@@ -226,7 +226,7 @@ position = Vector2(718, -11)
 texture = ExtResource("13_amc1m")
 
 [node name="DoorChangeScene" parent="Objects" instance=ExtResource("17_ydyba")]
-position = Vector2(1331, -212)
+position = Vector2(1342, -203)
 scale = Vector2(0.8, 0.8)
 _path_to_scene = "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
 
