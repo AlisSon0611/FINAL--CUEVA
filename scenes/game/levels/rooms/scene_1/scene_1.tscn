@@ -217,7 +217,7 @@ moving_direction = "active"
 metadata/_edit_group_ = true
 
 [node name="MainCharacter" parent="." instance=ExtResource("15_ooixx")]
-position = Vector2(106, 527)
+position = Vector2(124, 533)
 
 [node name="Objects" type="Node2D" parent="."]
 position = Vector2(140, 511)

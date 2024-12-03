@@ -6851,7 +6851,6 @@ scale = Vector2(1.38076, 1.38695)
 [node name="PowerUp5" parent="." instance=ExtResource("13_ntqti")]
 position = Vector2(86, 329)
 scale = Vector2(1.14825, 1.06933)
-animation = &"green_bottle"
 frame_progress = 0.909259
 
 [node name="Crabby2" parent="." instance=ExtResource("13_6b558")]

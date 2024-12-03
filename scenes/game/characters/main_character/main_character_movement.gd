@@ -15,7 +15,7 @@ extends Node2D
 
 var gravity = 650 # Gravedad para el personaje
 var velocity = 100 # Velocidad de movimiento en horizontal
-var jump = 220 # Capacidad de salto, entre mayor el número más se puede saltar
+var jump = 250 # Capacidad de salto, entre mayor el número más se puede saltar
 # Mapa de movimientos del personaje
 var _movements = {
 	IDLE = "default",
