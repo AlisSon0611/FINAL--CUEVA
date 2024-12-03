@@ -58,7 +58,16 @@ position = Vector2(437.5, 371.5)
 shape = SubResource("RectangleShape2D_3x710")
 
 [node name="Death" parent="Areas" instance=ExtResource("16_kwprd")]
-position = Vector2(518, 538)
+position = Vector2(406, 615)
+
+[node name="Death2" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(661, 640)
+
+[node name="Death3" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(1008, 644)
+
+[node name="Death4" parent="Areas" instance=ExtResource("16_kwprd")]
+position = Vector2(1305, 644)
 
 [node name="Collectibles" type="Node2D" parent="."]
 
@@ -222,7 +231,7 @@ scale = Vector2(0.8, 0.8)
 _path_to_scene = "res://scenes/game/levels/rooms/scene_2/scene_2.tscn"
 
 [node name="Spikes" parent="Objects" instance=ExtResource("19_4ldx5")]
-position = Vector2(389, 17)
+position = Vector2(323, 116)
 
 [node name="Spikes3" parent="Objects" instance=ExtResource("19_4ldx5")]
-position = Vector2(421, 18)
+position = Vector2(375, 111)
