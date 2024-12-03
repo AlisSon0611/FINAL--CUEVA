@@ -35,7 +35,7 @@
 [ext_resource type="Script" path="res://scenes/game/characters/main_character/main_character_collision.gd" id="57_7h47x"]
 
 [sub_resource type="Gradient" id="Gradient_nphf2"]
-offsets = PackedFloat32Array(0.119658, 0.316239)
+offsets = PackedFloat32Array(0.153846, 0.606838)
 colors = PackedColorArray(1, 1, 1, 0.968627, 0, 0, 0, 0)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_s5iif"]
@@ -46,8 +46,8 @@ fill = 1
 fill_from = Vector2(0.5, 0.5)
 
 [sub_resource type="Gradient" id="Gradient_a5s3m"]
-offsets = PackedFloat32Array(0.376068, 0.632479)
-colors = PackedColorArray(1, 1, 0.843137, 0.74902, 0, 0, 0, 0)
+offsets = PackedFloat32Array(0.367521, 0.623932)
+colors = PackedColorArray(1, 1, 0.984314, 1, 0, 0, 0, 0)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_k05qp"]
 gradient = SubResource("Gradient_a5s3m")
@@ -676,10 +676,11 @@ size = Vector2(19.5, 40)
 disable_mode = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.203922)
 texture = SubResource("GradientTexture2D_s5iif")
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
-color = Color(1, 1, 1, 0.505882)
+color = Color(1, 1, 1, 0.627451)
 texture = SubResource("GradientTexture2D_k05qp")
 
 [node name="MainCharacterMovement" type="Node2D" parent="." node_paths=PackedStringArray("character", "main_animation", "effect_animation_sword", "audio_player")]

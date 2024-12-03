@@ -28,7 +28,7 @@ script = ExtResource("1_j3e3j")
 color = Color(0, 0, 0, 1)
 
 [node name="DirectionalLight2D" type="DirectionalLight2D" parent="."]
-color = Color(1, 1, 1, 0.243137)
+color = Color(1, 1, 1, 0.0313726)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource("1_0t8t3")
@@ -304,8 +304,8 @@ position = Vector2(1700, -199)
 position = Vector2(1556, -295)
 
 [node name="PowerUp" parent="Objects" instance=ExtResource("22_vr6n4")]
-position = Vector2(884, -369)
-scale = Vector2(2.125, 1.5)
+position = Vector2(884, -375)
+scale = Vector2(2.125, 1.875)
 
 [node name="PowerUp2" parent="Objects" instance=ExtResource("22_vr6n4")]
 position = Vector2(1537, 51)
