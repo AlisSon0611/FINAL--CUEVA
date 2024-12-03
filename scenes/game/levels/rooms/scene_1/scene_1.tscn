@@ -245,7 +245,7 @@ texture = ExtResource("12_aiw82")
 
 [node name="FrontPalmTree" parent="Objects" instance=ExtResource("14_uwyh7")]
 z_index = 1
-position = Vector2(469, 96)
+position = Vector2(499, 96)
 frame_progress = 0.157831
 
 [node name="FrontPalmTree4" parent="Objects" instance=ExtResource("14_uwyh7")]
@@ -269,7 +269,11 @@ position = Vector2(1437, 130)
 frame_progress = 0.0
 
 [node name="BackPalmTree3" parent="Objects" instance=ExtResource("13_uwpfu")]
-position = Vector2(877, 131)
+position = Vector2(884, 130)
+frame_progress = 0.0
+
+[node name="BackPalmTree6" parent="Objects" instance=ExtResource("13_uwpfu")]
+position = Vector2(554, 92)
 frame_progress = 0.0
 
 [node name="BackPalmTree5" parent="Objects" instance=ExtResource("13_uwpfu")]

@@ -71,8 +71,8 @@ animations = [{
 }]
 
 [sub_resource type="Gradient" id="Gradient_a5s3m"]
-offsets = PackedFloat32Array(0.410256, 0.786325)
-colors = PackedColorArray(1, 0.901961, 0.682353, 1, 0, 0, 0, 0)
+offsets = PackedFloat32Array(0.418803, 0.811966, 1)
+colors = PackedColorArray(1, 0.901961, 0.682353, 1, 0, 0, 0, 0, 0.0943396, 0.0850906, 0.0643729, 0.0943396)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_t54l8"]
 gradient = SubResource("Gradient_a5s3m")
@@ -89,6 +89,11 @@ frame_progress = 0.784323
 script = ExtResource("1_bh1tx")
 
 [node name="PointLight2D2" type="PointLight2D" parent="."]
+modulate = Color(1, 0.901961, 0.682353, 1)
+color = Color(1, 1, 1, 0.627451)
+texture = SubResource("GradientTexture2D_t54l8")
+
+[node name="PointLight2D2" type="PointLight2D" parent="PointLight2D2"]
 modulate = Color(1, 0.901961, 0.682353, 1)
 color = Color(1, 1, 1, 0.627451)
 texture = SubResource("GradientTexture2D_t54l8")
