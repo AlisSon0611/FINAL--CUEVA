@@ -30,31 +30,6 @@ func _ready():
 		_item_contents.append(item) # Guardamos la referencia del nodo "marco" en un array
 
 
-# Función para detectar eventos del teclado o ratón
-func _unhandled_input(event):
-	# Definimos escenas donde no debe aparecer el inventario
-	var scenes = ["Splash", "Init"]
-	# Obtenemos el nombre de la escena actual
-	var actual_scene = get_tree().get_current_scene().name
-	# Si estamos en las escenas definidas no mostramos Inventario
-	if scenes.find(actual_scene,0) > -1:
-		return
-	
-	if event.is_action_pressed("wheel_up"):
-		# Cuando deslizamos la rueda del ratón hacia arriba, ocultamos el inventario
-		animation_player.play_backwards("down")
-		await animation_player.animation_finished
-		canvas.visible = false
-		get_tree().paused = false
-	elif event.is_action_pressed("wheel_down"):
-		get_tree().paused = true
-		# Cuando deslizamos la rueda del ratón hacia abajo, mostramos el inventario
-		if canvas.visible == true:
-			return
-		canvas.visible = true
-		animation_player.play("down")
-		await animation_player.animation_finished
-
 
 # Función que añade un item al inventario
 # Añadir significa, cargar un elemento (escena) y agregarlo al grid
